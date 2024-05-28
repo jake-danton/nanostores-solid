@@ -1,7 +1,7 @@
 {
   "name": "@nanostores/solid",
   "type": "module",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Solid integration for Nano Stores, a tiny state manager with many atomic tree-shakable stores.",
   "publishConfig": {
     "directory": "package"
@@ -20,8 +20,8 @@
     "solid"
   ],
   "exports": {
-    "require": "./dist/index.cjs",
-    "import": "./dist/index.js"
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -44,25 +44,24 @@
     "solid-js": "^1.6.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config-ts": "^0.39.3",
-    "@babel/core": "^7.22.1",
-    "@solidjs/testing-library": "^0.7.1",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@types/testing-library__jest-dom": "^5.14.6",
-    "bumpp": "^9.1.0",
-    "clean-publish": "^4.2.0",
-    "eslint": "^8.41.0",
-    "eslint-plugin-solid": "^0.12.1",
-    "jsdom": "^22.0.0",
+    "@antfu/eslint-config-ts": "^0.43.1",
+    "@babel/core": "^7.24.6",
+    "@solidjs/testing-library": "^0.8.8",
+    "@testing-library/jest-dom": "^6.4.5",
+    "bumpp": "^9.4.1",
+    "clean-publish": "^5.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-solid": "^0.14.0",
+    "jsdom": "^24.1.0",
     "nanodelay": "^2.0.2",
-    "nanostores": "^0.9.0",
-    "rimraf": "^5.0.1",
-    "solid-js": "^1.7.5",
-    "tsup": "^6.7.0",
-    "typescript": "^5.0.4",
-    "vite": "^4.3.9",
-    "vite-plugin-solid": "^2.7.0",
-    "vitest": "^0.31.1"
+    "nanostores": "^0.10.3",
+    "rimraf": "^5.0.7",
+    "solid-js": "^1.8.17",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-solid": "^2.10.2",
+    "vitest": "^1.6.0"
   },
   "eslintConfig": {
     "plugins": [

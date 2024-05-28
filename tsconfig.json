@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
     "target": "ESNext",
+    "lib": ["dom", "esnext", "dom.iterable"],
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
     "module": "ESNext",
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "strict": true,
     "noImplicitOverride": true,
-    "noUnusedLocals": true,
-    "lib": ["dom", "esnext", "dom.iterable"],
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "noUnusedLocals": true
   }
 }

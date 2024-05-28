@@ -14,11 +14,11 @@ export function useStore<
   Value extends StoreValue<SomeStore>,
 >(store: SomeStore): Accessor<Value> {
   const [state, setState] = createStore({
-    value: store.get()
+    value: store.get(),
   });
 
   const unsubscribe = store.subscribe((newValue) => {
-    setState('value', reconcile(newValue))
+    setState('value', reconcile(newValue));
   });
 
   onCleanup(() => unsubscribe());
